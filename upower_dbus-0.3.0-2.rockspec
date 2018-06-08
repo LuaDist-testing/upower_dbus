@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "upower_dbus"
-version = "0.3.0-1"
+version = "0.3.0-2"
 -- LuaDist source
 source = {
-  tag = "0.3.0-1",
+  tag = "0.3.0-2",
   url = "git://github.com/LuaDist-testing/upower_dbus.git"
 }
 -- Original source
@@ -23,7 +23,7 @@ supported_platforms = {
 }
 dependencies = {
    "lua >= 5.1",
-   "dbus_proxy >= 0.8.0, < 0.9",
+   "dbus_proxy >= 0.8.0, < 0.10",
    "enum >= 0.1.0, < 0.2"
 }
 build = {
