@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "upower_dbus"
  version = "0.1.0-2"
--- LuaDist source
-source = {
-  tag = "0.1.0-2",
-  url = "git://github.com/LuaDist-testing/upower_dbus.git"
-}
--- Original source
---  source = {
---     url = "git://github.com/stefano-m/lua-upower_dbus",
---     tag = "v0.1.0"
---  }
+ source = {
+    url = "git://github.com/stefano-m/lua-upower_dbus",
+    tag = "v0.1.0"
+ }
  description = {
     summary = "Get power information with UPower and DBus",
     detailed = "Get power information with UPower and DBus",
