@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "upower_dbus"
-version = "0.2.0-1"
+version = "0.3.0-1"
 -- LuaDist source
 source = {
-  tag = "0.2.0-1",
+  tag = "0.3.0-1",
   url = "git://github.com/LuaDist-testing/upower_dbus.git"
 }
 -- Original source
 -- source = {
 --    url = "git://github.com/stefano-m/lua-upower_dbus",
---    tag = "v0.2.0"
+--    tag = "v0.3.0"
 -- }
 description = {
    summary = "Get power information with UPower and DBus",
@@ -23,14 +23,15 @@ supported_platforms = {
 }
 dependencies = {
    "lua >= 5.1",
-   "dbus_proxy >= 0.7.1"
+   "dbus_proxy >= 0.8.0, < 0.9",
+   "enum >= 0.1.0, < 0.2"
 }
 build = {
    type = "builtin",
    modules = {
-      upower_dbus = "upower_dbus.lua"
+      upower_dbus = "src/upower_dbus/init.lua"
    },
    copy_directories = {
-      "doc"
+      "docs"
    }
 }
